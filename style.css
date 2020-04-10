@@ -1,0 +1,32 @@
+.navbar-nav a {
+  color: black;
+}
+
+.navbar-nav a.active{
+    color : orange;
+}
+
+.navbar-nav a:hover{
+  color: rgba(255, 153, 0, 0.596);
+}
+
+@media (min-width: 992px){
+    .navbar li {
+        margin-left : 1em;
+        margin-right : 1em;
+    }
+}
+
+.jumbotron {
+    opacity: 0.7;
+background-image: url('back1.png');
+background-position: bottom;
+    background-size: cover;
+    height: 470px;
+}
+
+.title {
+    text-align: center;
+    color: orange;
+    font-weight: bold;
+}
