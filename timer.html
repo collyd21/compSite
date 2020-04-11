@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+<style>
+
+#timer {
+width: 200px;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: Roboto;
+  font-size: 8px;
+  letter-spacing: 2px;
+  margin: 0px;
+}
+
+body {
+margin: 0px;
+}
+
+.days, .hours, .minutes, .seconds {
+  display: inline-block;
+  margin: 2px;
+  padding-bottom: 5px;
+  width: 42px;
+  height: 37px;
+  border-radius: 5px;
+  background: orange;
+  box-shadow: 2px 5px 5px grey;
+  text-align: center;
+  color: white;
+  text-shadow: 1px 1px 2px #000000;
+}
+
+.numbers {
+  font-family: Roboto;
+  font-size: 3em;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+  text-align: center;
+}
+
+</style>
+  <div id="timer"></div>
+<script> 
+// Set the date we're counting down to
+var countDownDate = new Date("Apr 15, 2020 15:37:25").getTime();
+
+// Update the count down every 1 second
+var x = setInterval(function() {
+
+  // Get today's date and time
+  var now = new Date().getTime();
+    
+  // Find the distance between now and the count down date
+  var distance = countDownDate - now;
+    
+  // Time calculations for days, hours, minutes and seconds
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+  // display
+  document.getElementById("timer").innerHTML =
+    "<div class=\"days\"> \
+  <div class=\"numbers\">" + days + "</div>days</div> \
+<div class=\"hours\"> \
+  <div class=\"numbers\">" + hours + "</div>hrs</div> \
+<div class=\"minutes\"> \
+  <div class=\"numbers\">" + minutes + "</div>mins</div> \
+<div class=\"seconds\"> \
+  <div class=\"numbers\">" + seconds + "</div>secs</div> \
+</div>";
+
+}, 1000);</script>
+</body>
+</html>
+
