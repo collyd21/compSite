@@ -5,7 +5,6 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-<link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
 
 </head>
@@ -55,59 +54,73 @@
 
 <div class="jumbotron jumbotron-fluid">
   <div class="container">
-    <h1 class="display-4 title"> "Name" Competions</h1>
-    <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+    <h1 class="display-4 title">Register</h1>
+    <p class="lead">Please enter your details below to Sign Up</p>
   </div>
 </div>
 
                                                                 <!-- TITLE -->
 
-<h1 class= "text-center">Latest Competitions</h1>
-<p class= "text-center">Check out the latest items up for grabs</p>
+<h1 class= "text-center title">Sign Up</h1>
+<p class= "text-center">Please enter your details below</p>
 
-                                                                <!-- COMPETITION BLOCK 1 -->
-<div class="container compContainer">
-<div class="row">
-<div class="col-md-6">
-<img class="img-fluid" src="images/macbook.jpg" alt="macbook" />
+                                                                <!-- SIGN UP FORM -->
+<div class="container">
+<div class="row justify-content-center">
+<div class="col-sm-12 form-register">
+<form method="POST" action="" accept-charset="UTF-8" autocomplete="off"><input name="_token" type="hidden" value="">
+<div class="form-group">
+<label for="firstname" class="form-label form-label-required">First Name</label>
+<input class="form-control form-control-medium" id="firstname" placeholder="" autocomplete="off" name="firstname" type="text" value="">
 </div>
-<div class="col-md-6 description">
-<h3>Apple MacBook Pro 16"</h3>
-<br>
-<ul>
-<li>Limited to 250 Entries</li>
-<li>€10 Entry</li>
-</ul>
-<br>
-<iframe width="205" height="65" src="timer.html" frameborder="0"></iframe>
-<br>
-<br>
-<a class='btn btn-primary' href="comp1.html">Enter Draw</a>
+<div class="form-group">
+<label for="surname" class="form-label form-label-required">Surname</label>
+<input class="form-control form-control-medium" id="surname" placeholder="" autocomplete="off" name="surname" type="text" value="">
+</div>
+<div class="form-group">
+<label for="email" class="form-label form-label-required">Email address</label>
+<input class="form-control form-control-medium" autocomplete="off" placeholder="" novalidate name="email" type="email" value="" id="email">
+</div>
+<div class="form-group">
+<label for="password" class="form-label form-label-required">Password</label>
+<input class="form-control form-control-medium" autocomplete="off" name="password" type="password" value="" id="password">
+</div>
+<div class="form-group">
+<label for="password_confirmation" class="form-label form-label-required">Password confirmation</label>
+<input class="form-control form-control-medium" autocomplete="off" name="password_confirmation" type="password" value="" id="password_confirmation">
+</div>
+<div class="form-group">
+<label for="telephone" class="form-label form-label-required">Telephone number</label>
+<input class="form-control form-control-medium" id="telephone" placeholder="Telephone number" autocomplete="off" name="telephone" type="text" value="">
+</div>
+<div class="form-group">
+<label for="address" class="form-label form-label-required">Address</label>
+<input class="form-control form-control-medium" id="address" placeholder="Address" autocomplete="off" name="address" type="text" value="">
+</div>
+<div class="form-group">
+<label for="city" class="form-label form-label-required">City/Town</label>
+<input class="form-control form-control-medium" id="city" placeholder="City/Town" autocomplete="off" name="city" type="text" value="">
+</div>
+<div class="form-group">
+<label for="county" class="form-label form-label-required">County</label>
+<input class="form-control form-control-medium" id="county" placeholder="County" autocomplete="off" name="county" type="text" value="">
+</div>
+<div class="form-group">
+<label for="postcode" class="form-label form-label-required">Postcode</label>
+<input class="form-control form-control-medium" id="postcode" placeholder="" autocomplete="off" name="postcode" type="text" value="">
+</div>
+<div class="form-group">
+<label for="country" class="form-label form-label-required">Country</label>
+<select class="form-control custom-select form-control-medium" id="country" name="country"><option selected="selected" value="">Select a country</option><option value="United Kingdom">United Kingdom</option><option value="Republic of Ireland">Republic of Ireland</option></select>
+</div>
+<div class="button-group">
+<input class="btn btn-success" type="submit" value="Register">
+</div>
+</form>
 </div>
 </div>
 </div>
-
-                                                                <!-- COMPETITION BLOCK 2 -->
-<div class="container-fluid compContainer">
-<div class="row">
-<div class="col-md-6">
-<img class="compPic" src="images/dyson.png" alt="dyson" />
-</div>
-<div class="col-md-6 description">
-<h3>Dyson Supersonic</h3>
-<br>
-<ul>
-<li>Limited to 150 Entries</li>
-<li>€10 Entry</li>
-</ul>
-<br>
-<iframe width="205" height="65" src="timer.html" frameborder="0"></iframe>
-<br>
-<br>
-<a class='btn btn-primary' href="comp2.html">Enter Draw</a>
-</div>
-</div>
-</div>
+ 
 
                                                                 <!-- FOOTER -->
 

@@ -19,7 +19,7 @@
 
 .jumbotron {
     opacity: 0.7;
-background-image: url('back1.png');
+background-image: url('images/back1.png');
 background-position: bottom;
     background-size: cover;
     height: 470px;
@@ -32,9 +32,12 @@ background-position: bottom;
     font-family: Helvetica;
 }
 
+.footer-links{
+   text-align: center; 
+}
 
 .description{
-    padding-left: 100px;
+    text-align: center;
     font-size: 16px;
 }
 
@@ -49,6 +52,7 @@ background-position: bottom;
     background-color:#d4d4d4;
     padding: 20px;
     margin-bottom: 80px;
+    max-width: 900px;
 }
 
 li {
@@ -58,3 +62,27 @@ li {
 ul {    padding: 0px;
 }
 
+#footer {
+    padding-top: 15px;
+    background-color: black;
+    
+}
+
+.copyright {
+    text-align: center;
+    color: orange;
+    font-family: Helvetica;
+    background-color: black;
+}
+        .form-login, .form-register{
+            background-color:rgba(240, 240, 240, 0.904);
+            height: 200px;
+            max-width: 600px;
+            padding-top: 20px;
+            border-radius: 5px;
+            box-shadow: 2px 5px 5px grey;
+            margin-bottom: 100px;
+        }
+        .form-register{
+            height: 1050px;  
+        }
