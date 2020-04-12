@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
 
 </head>
@@ -70,51 +71,40 @@
 <div class="col-sm-12 form-register">
 <form method="POST" action="" accept-charset="UTF-8" autocomplete="off"><input name="_token" type="hidden" value="">
 <div class="form-group">
-<label for="firstname" class="form-label form-label-required">First Name</label>
-<input class="form-control form-control-medium" id="firstname" placeholder="" autocomplete="off" name="firstname" type="text" value="">
+<input class="form-control form-control-medium" id="firstname" placeholder="First Name" autocomplete="off" name="firstname" type="text" value="" required="required">
 </div>
 <div class="form-group">
-<label for="surname" class="form-label form-label-required">Surname</label>
-<input class="form-control form-control-medium" id="surname" placeholder="" autocomplete="off" name="surname" type="text" value="">
+<input class="form-control form-control-medium" id="surname" placeholder="Surname" autocomplete="off" name="surname" type="text" value="" required="required">
 </div>
 <div class="form-group">
-<label for="email" class="form-label form-label-required">Email address</label>
-<input class="form-control form-control-medium" autocomplete="off" placeholder="" novalidate name="email" type="email" value="" id="email">
+<input class="form-control form-control-medium" autocomplete="off" placeholder="E-mail Address" novalidate name="email" type="email" value="" id="email" required="required">
 </div>
 <div class="form-group">
-<label for="password" class="form-label form-label-required">Password</label>
-<input class="form-control form-control-medium" autocomplete="off" name="password" type="password" value="" id="password">
+<input class="form-control form-control-medium" autocomplete="off" placeholder="Password" name="password" type="password" value="" id="password" required="required">
 </div>
 <div class="form-group">
-<label for="password_confirmation" class="form-label form-label-required">Password confirmation</label>
-<input class="form-control form-control-medium" autocomplete="off" name="password_confirmation" type="password" value="" id="password_confirmation">
+<input class="form-control form-control-medium" autocomplete="off" name="password_confirmation" placeholder="Confirm Password" type="password" value="" id="password_confirmation" required="required">
 </div>
 <div class="form-group">
-<label for="telephone" class="form-label form-label-required">Telephone number</label>
-<input class="form-control form-control-medium" id="telephone" placeholder="Telephone number" autocomplete="off" name="telephone" type="text" value="">
+<input class="form-control form-control-medium" id="telephone" placeholder="Telephone number" autocomplete="off" name="telephone" type="text" value="" required="required">
 </div>
 <div class="form-group">
-<label for="address" class="form-label form-label-required">Address</label>
-<input class="form-control form-control-medium" id="address" placeholder="Address" autocomplete="off" name="address" type="text" value="">
+<input class="form-control form-control-medium" id="address" placeholder="Address" autocomplete="off" name="address" type="text" value="" required="required">
 </div>
 <div class="form-group">
-<label for="city" class="form-label form-label-required">City/Town</label>
-<input class="form-control form-control-medium" id="city" placeholder="City/Town" autocomplete="off" name="city" type="text" value="">
+<input class="form-control form-control-medium" id="city" placeholder="City/Town" autocomplete="off" name="city" type="text" value="" required="required">
 </div>
 <div class="form-group">
-<label for="county" class="form-label form-label-required">County</label>
-<input class="form-control form-control-medium" id="county" placeholder="County" autocomplete="off" name="county" type="text" value="">
+<input class="form-control form-control-medium" id="county" placeholder="County" autocomplete="off" name="county" type="text" value="" required="required">
 </div>
 <div class="form-group">
-<label for="postcode" class="form-label form-label-required">Postcode</label>
-<input class="form-control form-control-medium" id="postcode" placeholder="" autocomplete="off" name="postcode" type="text" value="">
+<input class="form-control form-control-medium" id="postcode" placeholder="Postcode" autocomplete="off" name="postcode" type="text" value="" required="required">
 </div>
 <div class="form-group">
-<label for="country" class="form-label form-label-required">Country</label>
-<select class="form-control custom-select form-control-medium" id="country" name="country"><option selected="selected" value="">Select a country</option><option value="United Kingdom">United Kingdom</option><option value="Republic of Ireland">Republic of Ireland</option></select>
+<select class="form-control custom-select form-control-medium" id="country" name="country" required="required"><option selected="selected" value="">Select a country</option><option value="United Kingdom">United Kingdom</option><option value="Republic of Ireland">Republic of Ireland</option></select>
 </div>
 <div class="button-group">
-<input class="btn btn-success" type="submit" value="Register">
+<input class="btn btn-primary" type="submit" value="Register">
 </div>
 </form>
 </div>

@@ -1,3 +1,7 @@
+body {
+  font-family: Roboto;
+}
+
 .navbar-nav a {
   color: black;
 }
@@ -62,6 +66,13 @@ li {
 ul {    padding: 0px;
 }
 
+ul.pay > li {
+    padding-left: 20px;
+}
+
+.pay > p {
+   padding-left: 20px; 
+}
 #footer {
     padding-top: 15px;
     background-color: black;
@@ -84,5 +95,15 @@ ul {    padding: 0px;
             margin-bottom: 100px;
         }
         .form-register{
-            height: 1050px;  
+            height: 680px;  
         }
+
+
+.payContainer{
+    background-color:rgba(240, 240, 240, 0.904);
+    padding: 20px;
+    margin-bottom: 80px;
+    max-width: 1400px;
+    border-radius: 5px;
+    box-shadow: 2px 5px 5px grey;
+}
