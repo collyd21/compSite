@@ -14,14 +14,14 @@
                                                                 <!-- NAVBAR -->
 
 <nav class="navbar navbar-expand-lg bg-light">
-<a class="navbar-brand" href="#">Logo Here</a>
+<a class="navbar-brand" href="index.html">Logo Here</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
   <div class="collapse navbar-collapse" id="navbarNavDropdown">
     <ul class="navbar-nav mx-auto">
       <li class="nav-item ">
-        <a class="nav-link" href="index.html">Home</a>
+        <a class="nav-link active" href="index.html">Home</a>
       </li>
       
        <li class="nav-item dropdown">
@@ -30,8 +30,8 @@
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
           <a class="dropdown-item" href="b&f.html">Beauty/Fashion</a>
-          <a class="dropdown-item" href="#">Tech</a>
-          <a class="dropdown-item" href="#">Cars</a>
+          <a class="dropdown-item" href="tech.html">Tech</a>
+          <a class="dropdown-item" href="cars.html">Cars</a>
         </div>
 
       <li class="nav-item">
@@ -68,7 +68,7 @@
 <div class="container">
 <div class="row justify-content-center">
 <div class="col-sm-12 form-register">
-<form method="POST" action="" accept-charset="UTF-8" autocomplete="off"><input name="_token" type="hidden" value="">
+<form method="POST" action="register.php" accept-charset="UTF-8" autocomplete="off"><input name="_token" type="hidden" value="">
 <div class="form-group">
 <input class="form-control form-control-medium" id="firstname" placeholder="First Name" autocomplete="off" name="firstname" type="text" value="" required="required">
 </div>
@@ -82,7 +82,7 @@
 <input class="form-control form-control-medium" autocomplete="off" placeholder="Password" name="password" type="password" value="" id="password" required="required">
 </div>
 <div class="form-group">
-<input class="form-control form-control-medium" autocomplete="off" name="password_confirmation" placeholder="Confirm Password" type="password" value="" id="password_confirmation" required="required">
+<input class="form-control form-control-medium" autocomplete="off" name="password_confirm" placeholder="Confirm Password" type="password" value="" id="password_confirm" required="required">
 </div>
 <div class="form-group">
 <input class="form-control form-control-medium" id="telephone" placeholder="Telephone number" autocomplete="off" name="telephone" type="text" value="" required="required">
@@ -103,7 +103,8 @@
 <select class="form-control custom-select form-control-medium" id="country" name="country" required="required"><option selected="selected" value="">Select a country</option><option value="United Kingdom">United Kingdom</option><option value="Republic of Ireland">Republic of Ireland</option></select>
 </div>
 <div class="button-group">
-<input class="btn btn-primary" type="submit" value="Register">
+<input class="btn btn-primary" type="submit" name="register-submit" value="Register">
+<a href="login.html" class="btn btn-link">Already Have an Account?</a>
 </div>
 </form>
 </div>

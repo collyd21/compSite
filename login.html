@@ -14,14 +14,14 @@
                                                                 <!-- NAVBAR -->
 
 <nav class="navbar navbar-expand-lg bg-light">
-<a class="navbar-brand" href="#">Logo Here</a>
+<a class="navbar-brand" href="index.html">Logo Here</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
   <div class="collapse navbar-collapse" id="navbarNavDropdown">
     <ul class="navbar-nav mx-auto">
       <li class="nav-item ">
-        <a class="nav-link" href="index.html">Home</a>
+        <a class="nav-link active" href="index.html">Home</a>
       </li>
       
        <li class="nav-item dropdown">
@@ -30,8 +30,8 @@
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
           <a class="dropdown-item" href="b&f.html">Beauty/Fashion</a>
-          <a class="dropdown-item" href="#">Tech</a>
-          <a class="dropdown-item" href="#">Cars</a>
+          <a class="dropdown-item" href="tech.html">Tech</a>
+          <a class="dropdown-item" href="cars.html">Cars</a>
         </div>
 
       <li class="nav-item">
@@ -68,7 +68,7 @@
 <div class="container">
 <div class="row justify-content-center">
 <div class="col-sm-12 form-login">
-<form method="POST" action="" accept-charset="UTF-8"><input name="_token" type="hidden" value="">
+<form method="POST" action="login.php" accept-charset="UTF-8"><input name="_token" type="hidden" value="">
 <div class="form-group">
 <input class="form-control form-control-medium" name="email" type="email" id="email" placeholder="Email" required="required">
 </div>
@@ -76,7 +76,7 @@
 <input class="form-control form-control-medium" name="password" type="password" value="" id="password" placeholder="Password" required="required">
 </div>
 <div class="button-group">
-<input class="btn btn-primary inline-item" type="submit" value="Log In">
+<input class="btn btn-primary inline-item" name="login-submit" type="submit" value="Log In">
 <a href="" class="btn btn-link">Forgotten password?</a>
 </div>
 </form>
