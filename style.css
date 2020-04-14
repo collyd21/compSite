@@ -45,21 +45,26 @@ background-position: bottom;
     font-size: 16px;
 }
 
+.description li{
+list-style-type: none;
+}
+
 .compPic {
-    height: 320px;
-    width: 100%;
-    
+    height: 400px;
+    width: 100%; 
 }
 
 
 .compContainer{
-    background-color:#d4d4d4;
+    background-color:rgba(240, 240, 240, 0.904);
     padding: 20px;
     margin-bottom: 80px;
     max-width: 900px;
+    border-radius: 5px;
+    box-shadow: 2px 5px 5px grey;
 }
 
-li {
+.navbar-collapse li {
     list-style-type: none;
 }
 
@@ -106,4 +111,37 @@ ul.pay > li {
     max-width: 1400px;
     border-radius: 5px;
     box-shadow: 2px 5px 5px grey;
+}
+
+.worksContainer{
+max-width:300px;
+    background-color:rgba(240, 240, 240, 0.904);
+    padding: 20px;
+    margin-bottom: 50px;
+    border-radius: 5px;
+    box-shadow: 2px 5px 5px grey;
+}
+
+
+.tile-number {
+    text-align: center;
+    background-color: blue;
+    padding-top:5px;
+    width: 50px;
+    height: 50px;
+    color: white;
+    font-size: 25px;
+    border-radius: 5px;
+    box-shadow: 1px 2px 2px grey;
+}
+
+.tile-h4 {
+    margin-top: 10px;
+    text-align: center;
+    color: orange;
+    font-weight: bold;  
+}
+
+.tile-p {
+    text-align: center;   
 }
