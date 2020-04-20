@@ -16,6 +16,7 @@ body {
 
 .navbar-nav a {
   color: black;
+  margin-right: 20px;
 }
 
 .navbar-nav a.active{
@@ -42,8 +43,28 @@ background-position: bottom;
     font-family: Helvetica;
 }
 
+.btn-primary {
+    margin-bottom: 15px;
+}
+
 .footer-links{
-   text-align: center; 
+   text-align: center;
+   padding: 0px; 
+}
+
+.footer-links a{
+   color: rgba(240, 240, 240, 0.904); 
+}
+
+.social-links a{
+   color: rgba(240, 240, 240, 0.904); 
+}
+
+.social-links{
+padding: 0px;
+}
+.social-links li a i {
+    font-size: 20px;
 }
 
 .description{
@@ -61,20 +82,73 @@ list-style-type: none;
 }
 
 
+.cardSpace{
+    padding-bottom: 50px;}
+
 .compContainer{
     background-color:rgba(240, 240, 240, 0.904);
     padding: 20px;
-    margin-bottom: 80px;
-    max-width: 900px;
+    margin: 0px 10px 80px 10px;
+    max-width: 1000px;
     border-radius: 5px;
     box-shadow: 2px 5px 5px grey;
 }
 
+.compCol{
+    height: 400px;
+}
+
+.compCol img{
+    display: block;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+
+.details {
+    margin-top: 15px;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.card-body {
+    border: 1px solid rgb(240, 230, 230);
+    border-radius: 3px;
+    background-color:rgba(240, 240, 240, 0.904);
+    padding-bottom: 0px;
+    color: rgb(88, 86, 86);
+}
+
+.card:hover {
+    transform: scale(1.02);
+    box-shadow: 0px 0px 15px grey;
+}
+
+.card-img-top {
+    height: 290px;
+}
+
+.product-img {
+    width: 600px;
+    height: 500px;
+}
+
+/* .card {
+    max-width: 350px;
+    max-height: 270px;
+} */
+.cart{
+    font-size: 20px;
+}
 .navbar-collapse li {
     list-style-type: none;
 }
 
-ul {    padding: 0px;
+ul {    padding: 20px;
 }
 
 ul.pay > li {
@@ -120,10 +194,10 @@ ul.pay > li {
 }
 
 .worksContainer{
-max-width:300px;
+
     background-color:rgba(240, 240, 240, 0.904);
     padding: 20px;
-    margin-bottom: 50px;
+    margin: 20px 20px 50px 20px;
     border-radius: 5px;
     box-shadow: 2px 5px 5px grey;
 }
@@ -150,4 +224,12 @@ max-width:300px;
 
 .tile-p {
     text-align: center;   
+}
+
+.privacy h3{
+    font-weight: bold;
+}
+
+.privacy p{
+    font-size: 14px;
 }
