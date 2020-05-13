@@ -226,10 +226,28 @@ ul.pay > li {
     text-align: center;   
 }
 
-.privacy h3{
+.privacy h3, .about h3{
     font-weight: bold;
 }
 
-.privacy p{
+.privacy p, .about p{
     font-size: 14px;
+}
+
+.back {
+    position: relative;
+    z-index: 1;
+}
+
+.back .bg {
+    z-index: -1;
+     position: fixed; 
+    top: 0; 
+    left: 0; 
+    background-size: cover;
+    background: url(images/green1.jpg) center center;
+    background-repeat: no-repeat;
+    opacity: .2;
+    width: 100%;
+    height: 100%;
 }
